@@ -60,15 +60,15 @@ int main()
         if (i == baixo){
 
             int j = 1;
-            while (j = esquerda)
+            while (j <= esquerda)
             {
                 printf("Esquerda\n");
-                
+                j++;
             }
         }
     }
     
-    printf("O Cavalo se moveu %d casas para baixo e %d para a esquerda\n\n");
+    printf("O Cavalo se moveu %d casas para baixo e %d para a esquerda\n\n", baixo, esquerda);
 
     printf("Fim do Jogo!!");
     
