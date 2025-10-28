@@ -25,7 +25,7 @@ int main()
 
     printf("A torre se moveu %d vezes para a direita\n", torre);
 
-    // Bispo
+    // Rainha
 
     printf("Movimentação da Rainha\n");
 
