@@ -24,6 +24,18 @@ void rainha(int passo, int limite){
 
 //recursiva Bispo
 
+void bispo(int vertical, int limitevertical, int limitehorizontal){
+    if(vertical = limitevertical) return;
+
+    for (int horizontal = 1; horizontal <= limitehorizontal; horizontal ++){
+        printf("Direita\n");
+    }
+    printf("cima\n");
+
+    bispo(vertical + 1, limitevertical, limitehorizontal);
+}
+
+
 
 
 
