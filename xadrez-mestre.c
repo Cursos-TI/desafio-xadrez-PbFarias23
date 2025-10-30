@@ -35,6 +35,28 @@ void bispo(int vertical, int limitevertical, int limitehorizontal){
     bispo(vertical + 1, limitevertical, limitehorizontal);
 }
 
+void cavalo(int cima, int direita){
+    printf("Movimentação do Cavalo: \n");
+
+    for (int i=1, j=0; i<= cima; i++, J++){
+        if(i==2){
+            for(int k = 1; k <= direita; k++){
+                if(k==1){
+                    printf("Direita\n");
+                    break;
+                }         
+            }
+        } else {
+            if (i == 1) {
+                printf("Xima\n");
+                continue;
+            }
+        }
+        printf("Cima\n");
+    }
+    printf("O cavalo se moveu %d casas para cima e%d para a direita\n\n", cima, direita);
+}
+
 
 
 
