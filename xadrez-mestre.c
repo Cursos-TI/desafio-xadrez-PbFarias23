@@ -48,23 +48,40 @@ void cavalo(int cima, int direita){
             }
         } else {
             if (i == 1) {
-                printf("Xima\n");
+                printf("Cima\n");
                 continue;
             }
         }
         printf("Cima\n");
     }
-    printf("O cavalo se moveu %d casas para cima e%d para a direita\n\n", cima, direita);
+    printf("O cavalo se moveu %d casas para cima e %d para a direita\n\n", cima, direita);
 }
 
+int main() {
 
+    printf("DESAFIO MESTRE\n");
+    
+    // --- BISPO ---
+    printf("Movimentação do BISPO:\n");
+    bispo(1, movimentoBispo, 1);
+    printf("\n");
 
+    // --- TORRE ---
+    printf("Movimentação da TORRE (para a direita):\n");
+    torre(1, movimentoTorre);
+    printf("\n");
 
+    // --- RAINHA ---
+    printf("Movimentação da RAINHA (para a esquerda):\n");
+    rainha(1, movimentoRainha);
+    printf("\n");
 
+    // --- CAVALO ---
+    cavalo(movimentoCavaloCima, movimentoCavaloDireita);
 
-
-int main(){
-
+    printf("FIM DO DESAFIO - NÍVEL MESTRE\n");
+    
 
     return 0;
 }
+
